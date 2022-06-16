@@ -4,5 +4,5 @@
 
 def estimate(text)
     words_per_minute = 200
-    text.split(" ").length / words_per_minute
+    (text.split(" ").length).to_f / words_per_minute
 end

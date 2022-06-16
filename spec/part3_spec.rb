@@ -13,4 +13,6 @@ RSpec.describe "estimate method" do
     it "returns 3 when 600 words text is given" do
         expect(estimate("Hello "*600)).to eq 3
     end
+
+    it "returns "
 end
